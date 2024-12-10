@@ -1,0 +1,107 @@
+/* restock.module.css */
+
+/* Main container styling */
+.stockPage {
+    padding: 40px;
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    min-height: 100vh;
+}
+
+/* Form container */
+.formContainer {
+    background-color: white;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+.formContainer h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Form group for inputs */
+.formGroup {
+    margin-bottom: 5px;
+}
+
+.formGroup label {
+    display: block;
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 8px;
+}
+
+.formGroup input {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+
+
+/* Stock list/container styles */
+.stockList {
+    margin-top: 30px;
+}
+.submitBtn{
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #037fb1;
+    border-radius: 5px;
+    background-color: #037fb1;
+    box-sizing: border-box;
+}
+.submitBtn:hover{
+    background-color: #014661;
+    color: white;
+
+}
+.stockList h3 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+th, td {
+    padding: 14px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+    color: #333;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+td {
+    color: #555;
+}
+
+/* No items in stock message */
+td[colspan="4"] {
+    text-align: center;
+    font-size: 18px;
+    color: #888;
+    padding: 20px;
+}
